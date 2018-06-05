@@ -1,3 +1,8 @@
+"""
+Given two strings, write a function to find out whether they are both anagrams of each other. 
+1) Using a dictionary implementation.
+2) Comparing sorted strings
+"""
 
 def anagram(string1, string2):  
     dct = {}
@@ -18,8 +23,11 @@ def anagram(string1, string2):
         else:
             return False
     
-   
     return not (bool(dct))
+
+def anagram_sorted(string1, string2):
+    return sorted(string1) == sorted(string2)
+
 
 str1 = 'bool'
 str2 = 'boll'
@@ -33,6 +41,8 @@ s2 = 'dwro'
 
 word_anagram = anagram(s1, s2)
 print(word_anagram)
+
+
 
 
 
