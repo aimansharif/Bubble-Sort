@@ -8,7 +8,7 @@ def isPalindrome(number):
     >>> False
     
     """
-    string = str(n)
+    string = str(number)
     reversed_string = ''
     for i in string:
         reversed_string = i + reversed_string
