@@ -1,5 +1,8 @@
 def longestCommonPrefix(lst):
     """
+    Given a list of words, find the common longest prefix if there is one.
+    return an empty string if no common longest prefix found.
+    
     >>> ["flower","flow","flight"]
     >>> fl
     """
