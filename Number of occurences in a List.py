@@ -1,5 +1,11 @@
-def count_items(list, target):
-  
+def count_items(lst, target):
+  """
+  Given a list, count the number of occurences of target in the list.
+  >>> lists_of_ints = [1, 5, 7, 3, 9, 2, 9, 9, 6, 4, 9, 1]
+  >>> target = 9
+  >>> count_items(lists_of_ints, x)
+  >>> 4
+  """
   count = 0
   
   for element in list:
@@ -7,7 +13,3 @@ def count_items(list, target):
       count = count + 1
       
   return count 
-      
-lists_of_ints = [1, 5, 7, 3, 9, 2, 9, 9, 6, 4, 9, 1]
-x = 9
-count = count_items(lists_of_ints, x)
